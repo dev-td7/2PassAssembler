@@ -1,0 +1,17 @@
+USING *,15 
+0 SR 4,st#1+1 
+2 SR 5,st#1 
+4 L 3,lt#0 
+8 L 2,st#3 
+12 A 2,lt#1 
+LTORG  
+24 ST 2,st#4 
+28 A 4,lt#2 
+32 LR 1,st#5 
+34 BNE st#2 
+38 BR 14 
+LTORG  
+52 DC F'34' 
+56 DC F'8' 
+60 DS 10F 
+116 END 
